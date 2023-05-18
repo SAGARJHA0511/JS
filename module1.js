@@ -3,4 +3,11 @@ const hello = ()=>{
 
 }
 
-module.exports = hello;
+const fromhello = (name)=>{
+    console.log("hello "+ name)
+
+}
+
+
+
+module.exports = {hello, fromhello};
