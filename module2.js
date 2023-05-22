@@ -25,6 +25,27 @@ getData();
 
 console.log(2);*/
 
+// Implicit Binding
+
+
+const person = {
+    name : "oggy",
+    age : 22,
+
+    fan:function(){
+        return `Hello ${this.name}your age is ${this.age} year old`
+    }
+ }
+
+ console.log(person.fan());
+
+// const age = 22;
+//  function verifyAge(){
+    // return this.age
+//  }
+//   console.log(verifyAge());
+
+
 
 
 
